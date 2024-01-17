@@ -2,10 +2,19 @@ package dice;
 
 import java.util.Random;
 
-public class Dice {
-    public int roll(int sides) {
-        Random random = new Random();
+/**
+ * Dice method.
+ * for rolling dice
+ */
 
-        return random.nextInt(sides) + 1;
-    }
+public class Dice {
+  /**
+   * Roll method.
+   * intro for RNG
+   */
+  public int roll(int sides) {
+    Random random = new Random();
+
+    return random.nextInt(sides) + 1;
+  }
 }
